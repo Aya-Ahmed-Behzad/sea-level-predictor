@@ -8,8 +8,8 @@ def draw_plot():
     df= pd.read_csv('epa-sea-level.csv')
     # Perform linear regression for the first dataset
     slope1, intercept1, r_value1, p_value1, std_err1 = linregress(df['Year'], df['CSIRO Adjusted Sea Level'])
-    years = np.arange(1880, 2051)
     
+    years = np.arange(1880, 2051)
     # Predicting values from year 1880 till year 2050
     predicted1 = slope1 * years + intercept1
     
@@ -18,7 +18,6 @@ def draw_plot():
     slope2, intercept2, r_value2, p_value2, std_err2 = linregress(df2['Year'],df2['CSIRO Adjusted Sea Level'])
     
     years2 = np.arange(2000, 2051)
-    
     # Predicting values from year 2000 till year 2050
     predicted2 = slope2 * years2 + intercept2
     
@@ -40,6 +39,6 @@ def draw_plot():
     plt.legend(loc=2)
     plt.grid()
            
-    # Save plot and return data for testing 
+    # Save the plot and return the data for testing 
     plt.savefig('sea_level_plot.png')
     return plt.gca()
