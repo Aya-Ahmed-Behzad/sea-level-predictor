@@ -2,9 +2,9 @@
 
 ## Project Description
 
-This project is made to predict future sea level change through the year 2050. It uses a dataset that tracks the global average sea level rise since 1880 and applies linear regression Algorithm to forecast future sea level rise. 
+This project predicts future sea level change through the year 2050. It uses a dataset that tracks the global average sea level rise since 1880 and applies linear regression Algorithm to forecast Future Sea Level Rise. 
 
-This project is a solution of this **[FreeCodeCamp challenge](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/sea-level-predictor)** , where the objective is to analyze sea level changes, create visualizations, and make predictions using Machine Learning Algorithms (Linear Regression).
+This project is a solution to this **[FreeCodeCamp challenge](https://www.freecodecamp.org/learn/data-analysis-with-python/data-analysis-with-python-projects/sea-level-predictor)** , where the objective is to analyze sea level changes, create visualizations, and make predictions using Machine Learning Algorithms (Linear Regression).
 
 
 ## Technologies Used
@@ -30,7 +30,7 @@ The project is structured as follows:
 
 ---
 ## Sample Visualizations
-The project generates a Scatter Plot with regression lines to predict future sea level rise
+- The project generates a Scatter Plot with Regression Lines to predict Future Sea Level Rise
 ![scatter plot](sea_level_plot.png)
 
 This plot displays the historical sea level rise (Year vs. Sea Level in inches),
